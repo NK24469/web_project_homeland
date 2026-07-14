@@ -1,0 +1,23 @@
+.lead {
+  margin: 5.625rem auto 0;
+  width: 61.5rem;
+  height: 61.5rem;
+}
+
+.lead__title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 6rem;
+  width: 45rem;
+  height: 12.5rem;
+  line-height: 6.25rem;
+}
+
+.lead__subtitle {
+  margin: 3rem auto 0;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  width: 45rem;
+  height: 4.5rem;
+}
