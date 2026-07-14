@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Inter";
+  src:
+    url(../vendor/fonts/Inter-4.1/InterVariable.ttf) format("truetype"),
+    url(../vendor/fonts/webfontkit-20260714-104233/intervariable-webfont.woff)
+      format("woff"),
+    url(../vendor/fonts/webfontkit-20260714-104233/intervariable-webfont.woff2)
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  src:
+    url(../vendor/fonts/Inter-4.1/InterVariable-Italic.ttf) format("truetype"),
+    url(../vendor/fonts/webfontkit-20260714-104233/intervariable-italic-webfont.woff)
+      format("woff"),
+    url(../vendor/fonts/webfontkit-20260714-104233/intervariable-italic-webfont.woff2)
+      format("woff2");
+}
