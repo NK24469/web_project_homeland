@@ -1,0 +1,34 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 51.875rem;
+  margin: 5.75rem auto 0 9.25rem;
+}
+
+.intro__title {
+  font-size: 3.375rem;
+  height: 7.25rem;
+  line-height: 3.625rem;
+  margin: 0 0 2.5rem;
+}
+
+.intro__text {
+  margin: 0;
+  width: 46.125rem;
+  height: 4.25rem;
+  line-height: 2.125rem;
+}
+
+.intro__text-author {
+  width: 45.75rem;
+  height: 2.125rem;
+  margin: 0.625rem 0 2rem;
+  text-align: right;
+}
+
+.intro__text:last-child {
+  margin: 0;
+  width: 45.125rem;
+  height: 11.375rem;
+  line-height: 163%;
+}

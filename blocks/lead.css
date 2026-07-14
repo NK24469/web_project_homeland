@@ -20,4 +20,11 @@
   line-height: 2.25rem;
   width: 45rem;
   height: 4.5rem;
+  font-weight: normal;
+}
+
+.lead__image {
+  width: 61.5rem;
+  height: 38.4375rem;
+  margin: 3rem auto 0;
 }
