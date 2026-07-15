@@ -17,9 +17,11 @@
   width: 46.125rem;
   height: 4.25rem;
   line-height: 2.125rem;
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
-.intro__text-author {
+.intro__text:nth-last-of-type(2) {
   width: 45.75rem;
   height: 2.125rem;
   margin: 0.625rem 0 2rem;
@@ -31,4 +33,5 @@
   width: 45.125rem;
   height: 11.375rem;
   line-height: 163%;
+  font-size: 1rem;
 }
