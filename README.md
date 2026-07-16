@@ -1,5 +1,5 @@
 # web_project_homeland
-
+https://nk24469.github.io/web_project_homeland/
 ## Sobre
 
 O **web_project_homeland** é uma galeria digital que apresenta as origens e histórias da equipe. O projeto foi desenvolvido com foco em responsividade e boas práticas de desenvolvimento front-end.
