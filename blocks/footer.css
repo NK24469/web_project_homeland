@@ -9,7 +9,7 @@
   line-height: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .footer__copyright {
     margin-top: 5.5rem;
   }
@@ -19,4 +19,4 @@
   .footer__copyright {
     margin-top: 4rem;
   }
-}
+} */
