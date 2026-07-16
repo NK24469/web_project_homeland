@@ -4,19 +4,20 @@
 }
 
 .header__logo {
-  width: 15.875rem;
-  height: 4.375rem;
+  width: 254px;
+  height: 70px;
 }
 
-@media screen and (min-width: 544px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header__logo {
-    height: 4.125rem;
+    width: 254px;
+    height: 66px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 544px) {
+@media screen and (max-width: 320px) {
   .header__logo {
-    width: 11.75rem;
-    height: 3.25rem;
+    width: 188px;
+    height: 52px;
   }
 }

@@ -1,22 +1,23 @@
 .page {
   margin: 0 auto;
-  font-family: "Inter", sans-serif;
-  color: #fff;
-  background-color: #2a2c2f;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 2.125rem 0 1.5rem;
+  flex-direction: column;
+  background-color: #2a2c2f;
+  color: #fff;
+  max-width: 1600px;
+  font-family: "inter", sans-serif;
+  padding: 34px 148px 24px 148px;
 }
 
-@media screen and (min-width: 544px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .page {
-    padding: 1.875rem 0 1.5rem;
+    padding: 30px 0 24px 0;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 544px) {
+@media screen and (min-width: 768px) and (max-width: 1600px) {
   .page {
-    padding: 1.25rem 0 1.5rem;
+    padding: 20px 0 24px 0;
   }
 }
