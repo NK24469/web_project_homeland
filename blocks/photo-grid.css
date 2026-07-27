@@ -11,3 +11,12 @@
 .photo-grid__image {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 720px;
+    max-height: 1104px;
+    margin: 64px auto 0;
+  }
+}
