@@ -7,6 +7,7 @@
   margin-top: 80px;
   display: grid;
   grid-template-columns: 460px 1fr;
+  grid-template-rows: auto auto auto;
   gap: 48px 40px;
   grid-template-areas:
     "title artists"
@@ -26,7 +27,7 @@
   max-height: 460px;
   width: 100%;
   grid-area: image;
-  box-shadow: 10px 10px 25px #000;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .places__button {
@@ -42,7 +43,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .places__artists {
@@ -61,6 +62,8 @@
 
 .places__artist-name {
   margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
 .places__description {
@@ -75,4 +78,36 @@
 
 .places__paragraph:first-of-type {
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    margin: 87px auto 0;
+  }
+
+  .places__item {
+    gap: 48px 13px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 340px auto;
+    margin: 72px auto 0;
+  }
+
+  .places__title {
+    font-size: 42px;
+    line-height: 1.2;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .places__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+  }
 }
