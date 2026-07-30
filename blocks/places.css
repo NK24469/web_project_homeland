@@ -30,6 +30,10 @@
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
+.places__image:hover {
+  opacity: 50%;
+}
+
 .places__button {
   grid-area: button;
   font-size: 18px;
@@ -44,6 +48,10 @@
   justify-content: center;
   border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.places__button:hover {
+  opacity: 25%;
 }
 
 .places__artists {
@@ -109,5 +117,39 @@
 
   .places__paragraph {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+    margin: 62px auto 0;
+  }
+
+  .places__item {
+    margin: 50px auto 0;
+    gap: 30px 0;
+    grid-template-areas:
+      "title"
+      "artists"
+      "image"
+      "description"
+      "button";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 288px;
+  }
+
+  .places__title {
+    font-size: 32px;
+  }
+
+  .places__image {
+    width: 100%;
+  }
+
+  .places__button {
+    font-size: 14px;
+    width: 288px;
   }
 }
